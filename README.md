@@ -1,53 +1,16 @@
-# 🌐 My Portfolio
+# React + Vite
 
-A modern, responsive personal portfolio website built with **React** and **Tailwind CSS**.  
-It showcases my skills, projects, certifications, and professional journey — designed to work seamlessly across all screen sizes.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ⚡ **Responsive Design** — Fully optimized for desktop, tablet, and mobile.  
-- 💼 **Professional Sections** — About, Projects, Experience, Skills, and Certifications.  
-- 🧭 **Smooth Navigation** — Integrated React Router with hash-based scrolling.  
-- 🧠 **Reusable Components** — Built using modular React components.  
-- 🎨 **Modern UI/UX** — Minimalist layout powered by Tailwind CSS.  
-- 🧾 **Dynamic Projects Page** — Easily add or update projects with descriptions and images.
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-**Frontend:** React, JavaScript, Tailwind CSS, HTML5, CSS3  
-**Routing:** React Router DOM  
-**Icons:** Lucide React, Devicon  
-**Version Control:** Git & GitHub
-
----
-
-## 📸 Sections Overview
-
-- **Hero Section** — Introduction with background image  
-- **Why Hire Me** — Bio, profile image, and achievements (3+ years experience, 100+ projects)  
-- **Journey** — Education, professional experience, and certification slideshow  
-- **Tools & Skills** — Tool icons and skill progress bars  
-- **Projects** — Detailed portfolio of web development projects  
-- **Contact** — Contact form and social links  
-- **Footer** — Quick navigation and social media icons  
-
----
-
-## 🧩 Installation & Setup
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/my-portfolio.git
-
-## 🧑‍💻 Author
-
-**John Doe**  
-💼 Front-End Developer | Full-Stack Developer | Software Engineer  
-📧 abhijitchaudhari9120@gmail.com  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/abhijitchaudharii)  
-🔗 [GitHub Profile](https://github.com/abhijitchaudharii)
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
